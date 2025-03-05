@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reproductor de MP3</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>bienvenido, para reproducir
+     presiona A, para pausar D y 
+    para cambiar de cancion S </h1>
+  <div class="player">
+    <audio id="audio-player" controls></audio>
+    <div class="controls">
+      <button id="prev">Anterior</button>
+      <button id="play-pause">Reproducir/Pausa</button>
+      <button id="next">Siguiente</button>
+    </div>
+    <div class="progress-container">
+      <div id="progress"></div>
+    </div>
+    <ul id="playlist">
+      <li data-src="abcdba.mp3" data-img="abracadabra.png">abracadabra-lady gaga</li>
+      <li data-src="rsh.mp3" data-img="rush.png">rush-troye sivan</li>
+      <li data-src="pwyc.mp3" data-img="pretty.png">pretty when you cry- lana del rey </li>
+      <li data-src="dt.mp3" data-img="dointime.png">doin time- lana del rey </li>
+      <li data-src="dss.mp3" data-img="disease.png">disease- lady gaga</li>
+      <li data-src="dwas.mp3" data-img="dwa.jpeg"> 1 die with a smile-lady gaga</li>
+      <li data-src="hpm.mp3" data-img="hm.jpe"> 2 happy mistake- lady gaga</li>
+      <li data-src="hwn.mp3" data-img="phoeb.jpeg"> 3 halloween- phoebe bridgers</li>
+      <li data-src="perfpl.mp3" data-img="Meodrama.jpeg"> 4 perfect places- lorde</li>
+      <li data-src="daitd.mp3" data-img="tf.jpeg"> 5 dance in the dark - lady gaga</li>
+      
+    <img id="track-image" src="pretty.png" alt="">
+    <div id="carousel-container">
+      <img id="carousel" src="abracadabra.png" alt="Carrusel de imágenes">
+    </div>
+  </div>
+  
+  <a href="index4.html">Página 3</a>
+  <a href="index.html">Página 0</a>
+  <a href="index.html">Página 1</a>
+  <script src="script.js"></script>
+</body>
+</html>
